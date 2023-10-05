@@ -1,0 +1,20 @@
+.catalog {
+  overflow-x: hidden;
+
+  &__container {
+    padding: 0;
+
+    @media (min-width: 1120px) {
+      
+    }
+
+  }
+
+  &__list {
+
+  }
+
+  &__link {
+
+  }
+}

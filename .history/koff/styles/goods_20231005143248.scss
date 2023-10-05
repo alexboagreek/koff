@@ -1,0 +1,40 @@
+.goods {
+  padding-top: 24px;
+
+  @media (min-width: 580px) {
+    padding-top: 32px;
+  }
+
+  @media (min-width: 820px) {
+    padding-top: 40px;
+  }
+
+  &__title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 24px;
+
+    @media (min-width: 580px) {
+      margin-bottom: 32px;
+      font-size: 32px;
+    }
+
+    @media (min-width: 820px) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__list {
+    display: grid;
+    gap: 50px 8px;
+    grid-template-columns: repeat(a);
+  }
+
+  &__item {
+
+  }
+
+  &__card {
+
+  }
+}
