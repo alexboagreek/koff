@@ -42,7 +42,7 @@ const init = () => {
   new Main().mount();
 
   new Footer().mount();
-  new Order().mount();
+  new Order().mount(new Main().element);
 
   productSlider();
 
