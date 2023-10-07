@@ -4,6 +4,7 @@ import "./style.scss";
 import { Header } from "./modules/Header/Header";
 import { Main } from "./modules/Main/Main";
 import { Footer } from "./modules/Footer/Footer";
+import { Order } from "./modules/Order/Order";
 
 import Navigo from "navigo";
 
@@ -39,7 +40,9 @@ const init = () => {
 
   new Header().mount();
   new Main().mount();
+
   new Footer().mount();
+  new Order().mount();
 
   productSlider();
 
